@@ -10,7 +10,7 @@ const server = http.createServer((request, response)=>{
     response.setHeader("Content-Type", "text/plain");
 
     response.write("Hello,\n");
-    response.end("Welcome to Kohls");
+    response.end("Welcome to Kohls, Nick Pierce");
 });
 
 server.listen(port, hostName, ()=>{
